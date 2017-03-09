@@ -113,11 +113,4 @@ Function Get-LatestBulletin
 }
 
 
-$ExcelFile = "\\aspen.local\DFSUsers$\LDN\WalkeA\My Documents\BulletinSearch.xlsx"
-#$BulletinId = "MS11-083"
-$BulletinId = "MS08-069"
-$ProductFilter = "Windows 7 for x64-based Systems Service Pack 1"
-
-Get-LatestBulletin -ExcelFile $ExcelFile -BulletinId $BulletinId -ProductFilter $ProductFilter
-
 
